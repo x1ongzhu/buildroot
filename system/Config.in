@@ -422,7 +422,7 @@ config BR2_SYSTEM_DEFAULT_PATH
 
 config BR2_ENABLE_LOCALE_PURGE
 	bool "Purge unwanted locales"
-	default y
+	default n
 	help
 	  Explicitly specify what locales to install on target. If N
 	  then all locales supported by packages are installed.
